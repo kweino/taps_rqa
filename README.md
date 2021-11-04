@@ -1,5 +1,7 @@
 # taps_rqa
- Transforms audio files of tempo taps into tables of inter-onset intervals. Can perform RQA/CRQA analyses and plot results.
+ taps.py transforms audio files of tempo taps into CSV files of inter-onset intervals (IOIs). 
+ 
+ rqa_plot.py performs RQA analyses on the IOIs from audio files and plots the results.
 
 # Using taps.py
  From the root directory:
@@ -33,5 +35,5 @@
  A sample wave file is included for testing the installation:
 
  ```bash
- python taps.py -i test/output.wav
+ python taps.py -i test.wav
  ```
