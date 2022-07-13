@@ -1,3 +1,5 @@
+Forked from https://github.com/FlamingLasrSwrd/taps. This version updates taps.py to use the librosa package for beat finding instead of scipy. Librosa's load method is has a more flexible handling of .wav files, including codecs and mono/stereo settings.
+
 # taps_rqa
  taps.py transforms audio files of tempo taps into CSV files of inter-onset intervals (IOIs). 
  
